@@ -85,7 +85,7 @@ def get_expr(code_tree):
     return magic, cond
 
 
-def generate_code(magic, conds, magic_name="fuck"):
+def generate_code(magic, conds, magic_name="__"):
     assign = ast.Assign(
                  targets=[
                      ast.Name(id=magic_name, ctx=ast.Store())
@@ -135,3 +135,4 @@ def generate(code):
 if __name__ == "__main__":
     for i in generate(code):
         print(i)
+
