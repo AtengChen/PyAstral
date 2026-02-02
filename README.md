@@ -2,7 +2,7 @@
 
 PyAstral It is a custom Python Source Code Protection System (Transpiler) designed to prevent reverse engineering.
 
-Core Function: It transforms Python source code into mathematically equivalent but structurally obscure forms to protect intellectual property.
+Core Function: It transforms Python source code into logically equivalent but structurally obscure forms (Which is in One-Liner form) to protect intellectual property.
 
 Key Tech: Utilizes AST (Abstract Syntax Tree) manipulation, control flow flattening, and Boolean algebra encryption.
 
