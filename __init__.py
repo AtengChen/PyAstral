@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-__url__ = "https://github.com/AtengChen/pypack"
+__url__ = "https://github.com/AtengChen/PyAstral"
 
 
 import sys
@@ -136,4 +136,5 @@ if __name__ == "__main__":
     
     with open(output_file, "w", encoding=args.file_encoding) as f:
         f.write(new_code)
+
 
